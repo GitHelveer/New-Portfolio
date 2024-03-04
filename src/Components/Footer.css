@@ -1,0 +1,13 @@
+.Footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: start;
+  }
+  
+  .footnavigation,
+  .footcontact,
+  .footsocialmedia {
+    display: flex;
+    flex-direction: column;
+  }

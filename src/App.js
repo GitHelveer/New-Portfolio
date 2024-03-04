@@ -1,13 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Nav from './Components/Nav';
+import Main from './Components/Main';
 
 function App() {
   return (
-    <div className="App">
-      <header>
-Sophonias
-      </header>
-    </div>
+    <>
+<Header />
+<Nav />
+<Main />
+<Footer />
+    </>
+
   );
 }
 
