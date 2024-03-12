@@ -1,7 +1,8 @@
+import './Nav.css';
 function Nav() {
     return (
       <nav>
-        <ul>
+        <ul className="Nav">
           <li><a href="https://www.coursera.org/programs/american-dream-academy-jzjjt">Home</a></li>
           <li><a href="https://www.coursera.org/programs/american-dream-academy-jzjjt">About</a></li>
           <li><a href="https://www.coursera.org/programs/american-dream-academy-jzjjt">Menu</a></li>

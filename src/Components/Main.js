@@ -1,9 +1,11 @@
+import Featuring from "./Featuring";
+import Cardcomp from "./Card";
+
 function Main() {
     return (
 <main>
-    <header>
-        SOFI
-    </header>
+<Featuring />
+<Cardcomp />
 </main>
     );
 }

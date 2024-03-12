@@ -1,0 +1,65 @@
+/* Global CSS */
+html {
+    font-size: 16px; /* Baseline font size */
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+    h1 {
+        font-size: 2.5rem;
+      }
+      
+      h2 {
+        font-size: 2rem;
+      }
+      
+      h3 {
+        font-size: 1.5rem;
+      }
+      
+      p {
+        font-size: 1rem;
+      }
+  }
+  
+  @media (max-width: 480px) {
+    html {
+      font-size: 12px; /* Further decrease font size for mobile devices */
+      
+    }
+    h1 {
+        font-size: 2.5rem;
+      }
+      
+      h2 {
+        font-size: 2rem;
+      }
+      
+      h3 {
+        font-size: 1.5rem;
+      }
+      
+      p {
+        font-size: 1rem;
+      }
+  }
+  
+ 
+

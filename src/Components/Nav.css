@@ -1,0 +1,16 @@
+.Nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content:space-between;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+@media (max-width: 415px) {
+    .Nav {
+        display:block;
+    }
+}

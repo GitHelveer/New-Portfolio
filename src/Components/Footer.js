@@ -2,7 +2,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer>
+    <footer className='Footer'>
       <section className="footimg">
         <img src="./logo512.png" alt="Logo" />
       </section>

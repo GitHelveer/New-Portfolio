@@ -1,7 +1,7 @@
 .Footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
+    grid-template-columns: auto auto auto auto;
+    justify-items: start;
     align-items: start;
   }
   
@@ -10,4 +10,5 @@
   .footsocialmedia {
     display: flex;
     flex-direction: column;
+    justify-items: start;
   }
