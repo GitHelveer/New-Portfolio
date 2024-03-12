@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
+import littlelemon from './littlelemon.jpg';
 
 function Header() {
   const [sidebarVisible, setSidebarVisible] = useState(false);
@@ -24,7 +25,7 @@ function Header() {
           <li><a href="#">Login</a></li>
         </ul>
         <ul>
-          <li><a href="#">Coding2go</a></li>
+          <li><img src={littlelemon} alt="logo of the website"/></li>
           <li className="menu-button" onClick={showSidebar}><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
           <li className="hideOnMobile"><a href="#">Blog</a></li>
           <li className="hideOnMobile"><a href="#">Products</a></li>
