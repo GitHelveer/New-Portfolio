@@ -1,0 +1,30 @@
+.testimonialcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 2px;
+    margin-left: 17px;
+    width: 90%;
+    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
+}
+.testimonialcontainerh4 {
+    align-self: flex-start;
+    padding-left: 13px;
+}
+.testimonialjpg{
+    object-fit: cover;
+    max-width: 70%;
+    padding-top: min(15px,5%);
+    padding-bottom: min(15px,5%);
+}
+
+.testimonialcontainer2{
+    display: flex;
+    gap:min(15px,15%);
+    align-items: center;
+    width: 85%;
+    justify-content: space-between;
+  
+}
+

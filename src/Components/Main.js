@@ -1,9 +1,10 @@
 import Featuring from "./Featuring";
 import Cardcomp from "./Card";
+import "./Main.css"
 
 function Main() {
     return (
-<main>
+<main className="maincont">
 <Featuring />
 <Cardcomp />
 </main>

@@ -1,14 +1,40 @@
 .featuringcontainer {
-    background-color: green;
+    background-color: #495e57;
     position: relative;
-    width: 100%
+    width: 100%;
+    margin-bottom: 35px;
   }
+  .thismenubut {
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    gap:20%;
+    align-items: center;
+  }
+
   
   .featcontainer1 {
-    padding: 2rem;
+    padding: 3rem;
+    padding-left: 4%;
     color: white;
     width: 100%;
     position: relative;
+  }
+  .featcontainer1 h1 {
+    color: #f4ce14;
+  }
+
+  .featcontainer1 h2 {
+    padding: 2px;
+  }
+  .featcontainer1 p {
+    padding: 1%;
+    padding-left: 5px;
+    padding-right: 2px;
+    width: 40%;
+    display:inline-block;
   }
   
   .featcontainer2 {
@@ -17,11 +43,48 @@
     top: 15px;
     z-index: 2;
     display:inline-block;
-    width: max(270px, 17%);
+    width:210px;
+    
   }
-  
+
+  button {
+    background-color: #f4ce14;
+    font-weight:bold;
+    border-radius: 12px;
+    padding: 8px 11px;
+    border:#f4ce14;
+    margin-top: 5px;
+}
+button:hover {
+  background-color: #ee9972;
+  color: black;
+}
   .featcontainer2 img {
-    display: block;
+    display: inline-flex;
     width: 100%;
-    max-height:230px /* Adjust this value to decrease the height of the image */
+    max-height:280px;
   }
+
+
+  @media(max-width: 560px) {
+    .featcontainer2 img{
+      width:calc(27vw);
+      height: calc(34vw);
+      position: absolute;
+      right: calc(1.22vw);
+      top:56px;
+      bottom:auto;
+    }
+    .featcontainer1{
+      display:inline-block;
+    }
+  }
+@media(max-width:412px){
+  .thismenubut {
+    display: block;
+  
+  }
+  .featuringcontainer {
+    margin-bottom: 15px;
+}
+}

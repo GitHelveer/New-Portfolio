@@ -1,13 +1,14 @@
 import './Footer.css';
+import footlogo from "./littlelemon.jpg"
 
 function Footer() {
   return (
     <footer className='Footer'>
       <section className="footimg">
-        <img src="./logo512.png" alt="Logo" />
+        <img src={footlogo} alt="Logo" />
       </section>
       <section className="footnavigation">
-        <h2>Navigation</h2>
+        <h3>Navigation</h3>
         <ul>
           <li><a href="https://www.coursera.org/learn/meta-front-end-developer-capstone/supplement/7OkGV/recap-css-grids">Home</a></li>
           <li><a href="https://www.coursera.org/learn/meta-front-end-developer-capstone/supplement/7OkGV/recap-css-grids">About</a></li>
@@ -17,7 +18,7 @@ function Footer() {
         </ul>
       </section>
       <section className="footcontact">
-        <h2>Contact</h2>
+        <h3>Contact</h3>
         <ul>
           <li><a href="https://www.coursera.org/learn/meta-front-end-developer-capstone/supplement/7OkGV/recap-css-grids">Address</a></li>
           <li><a href="https://www.coursera.org/learn/meta-front-end-developer-capstone/supplement/7OkGV/recap-css-grids">Email</a></li>
@@ -25,7 +26,7 @@ function Footer() {
         </ul>
       </section>
       <section className="footsocialmedia">
-        <h2>Socialmedia Links</h2>
+        <h3>Socialmedia Links</h3>
         <ul>
           <li><a href="https://www.coursera.org/learn/meta-front-end-developer-capstone/supplement/7OkGV/recap-css-grids">Instagram</a></li>
           <li><a href="https://www.coursera.org/learn/meta-front-end-developer-capstone/supplement/7OkGV/recap-css-grids">Facebook</a></li>

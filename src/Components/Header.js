@@ -14,7 +14,7 @@ function Header() {
   };
 
   return (
-    <header>
+    <header className='headerhead'>
       <nav>
         <ul className={`sidebar ${sidebarVisible ? 'active' : ''}`}>
           <li onClick={hideSidebar}><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>

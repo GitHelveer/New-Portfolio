@@ -1,14 +1,88 @@
 .Footer {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-items: start;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 2fr;
+  justify-items: center;
+  align-items: start;
+  width: 100%;
+  margin-left: 75px;
+}
+.footimg {
+  width: 79%;
+  align-self: start;
+  justify-self: start;
+  padding-top: 25px;
+}
+.footimg img {
+  width: 100%;
+  object-fit: cover;
+  align-self: center;
+  justify-self: center;
+}
+
+.footnavigation,
+.footcontact {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-items: start;
+  padding: 20px;
+  flex: 1; /* Equal portion for navigation and contact sections */
+
+}
+.footnavigation ul,
+.footcontact ul, .footsocialmedia ul {
+  list-style: none; /* Remove bullet points from the <ul> elements */
+}
+
+.footsocialmedia {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-items: start;
+  justify-self:flex-start;
+  align-self: self-start;
+  padding: 20px;
+  flex: 2.5; /* Greater portion for footsocialmedia section */
+}
+
+@media (max-width: 768px) {
+  .Footer {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    margin: 0;
     align-items: start;
+    justify-content: start;
   }
-  
   .footnavigation,
-  .footcontact,
-  .footsocialmedia {
-    display: flex;
-    flex-direction: column;
-    justify-items: start;
+.footcontact {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-items: start;
+  place-self: start;
+  flex: 1; /* Equal portion for navigation and contact sections */
+}
+.footimg {
+  grid-column: 2;
+  grid-row: 2; /* Move the image back to the first grid column */
+}
+}
+.Footer a {
+  color: #495e57; /* Update the color of the anchor tags */
+  text-decoration: none; /* Remove the underline */
+  font-weight: bold; /* Make the anchor tags bolder */
+  transition: color 0.3s; /* Add a smooth transition effect for color change */
+}
+
+.Footer a:hover {
+  color: #ff9900; /* Set the color of the anchor tags on hover */
+}
+
+@media (max-width: 480px) {
+  .Footer {
+    grid-template-columns: 1fr;
   }
+  .footimg {
+    grid-column: 1;
+    grid-row: 4; /* Move the image back to the first grid column */
+  }
+}

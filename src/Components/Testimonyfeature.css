@@ -1,0 +1,19 @@
+.Testimonyfeaturecont{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 8px;
+margin-bottom: 65px;
+}
+.testimonialh2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+@media(max-width:412px){
+    
+    .Testimonyfeaturecont {
+      margin-bottom:55px;
+  }
+  }

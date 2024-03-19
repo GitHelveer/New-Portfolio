@@ -1,6 +1,10 @@
 /* Global CSS */
-html {
+html, body {
     font-size: 16px; /* Baseline font size */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
   }
   h1 {
     font-size: 2.5rem;
@@ -17,6 +21,7 @@ html {
   p {
     font-size: 1rem;
   }
+  
   
   @media (max-width: 768px) {
     html {
