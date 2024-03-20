@@ -1,20 +1,17 @@
 import './App.css';
 import "./global.css"
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import Main from './Components/Main';
-import Testimonyfeature from "./Components/Testimonyfeature"
-import Lastfeaturing from './Components/Lastfeaturing';
+import Homepage from './pages/Homepage';
+import Booking from './pages/Booking';
+import { Route, Routes } from 'react-router-dom';
 
 
 function App() {
   return (
     <>
-<Header  />
-<Main />
-<Testimonyfeature />
-<Lastfeaturing />
-<Footer />
+  <Routes>
+    <Route path="/" element={<Homepage />} />
+    <Route path="/Booking" element={<Booking />} />
+  </Routes>
     </>
 
   );

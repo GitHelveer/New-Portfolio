@@ -3,10 +3,12 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     justify-content: center;
     align-items: center;
-    
-    margin: 10px 15px;
+    width: 100%;
+   
     background-color: #495e57;
-    padding: 15px 15px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-bottom: 65px;
 }
 .lastfeaturing1{
