@@ -11,7 +11,7 @@ function Lastfeaturing() {
           <h3>Chicago</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut gravida velit. Mauris eget neque sed nibh fringilla eleifend. Aliquam erat volutpat. Integer auctor scelerisque efficitur.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut gravida velit. Mauris eget neque sed nibh fringilla eleifend. Aliquam erat volutpat. Integer auctor scelerisque efficitur.
+            Lorem ipsum dolor sit amet, consectetur adipiscing 
           </p>
         </div>
         <div className='lastfeaturing2'>

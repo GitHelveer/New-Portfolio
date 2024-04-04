@@ -1,12 +1,14 @@
-.mainbutton {
+.menubut {
     background-color: #f4ce14;
-    font-weight:bold;
+    font-weight: bold;
     border-radius: 12px;
     padding: 8px 11px;
-    border:#f4ce14;
-}
-
-.mainbutton:hover {
-    background-color: #ee9972;
-    color: black;
-}
+    border: none;
+    text-decoration: none;
+    color: black; /* Add this line to set the text color to black */
+  }
+  
+  .menubut .menu-link {
+    text-decoration: none;
+    color: black; /* Add this line to set the text color to black */
+  }

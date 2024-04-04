@@ -17,9 +17,11 @@
 .lastfeaturing1 h2{
     color:#f4ce14;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 .lastfeaturing1 h3, p{
     color:white;
+    padding-bottom: 14px;
 }
 .lastfeaturing2 {
     margin-top: 15px;

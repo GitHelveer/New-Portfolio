@@ -1,5 +1,9 @@
 import Testimonial from "./Testimonial"
 import testimonyjpg from "./Testimonial1.jpg"
+import Johntest from "./Johntestimonial.jpg"
+import Mattest from "./Matthew Testimony.jpg"
+import emytest from "./Emytestimony.jpg"
+import lilytest from "./lilytestim.jpg"
 import "./Testimonyfeature.css"
 function Testimonyfeature(){
     return(
@@ -7,10 +11,10 @@ function Testimonyfeature(){
         <div>
         <h2 className="testimonialh2">Our Testimonials</h2>
         <div className="Testimonyfeaturecont">
-        <Testimonial image={testimonyjpg} name="John" rating="8" age="27" />
-        <Testimonial image={testimonyjpg} name="mathew" rating="7" age="35" />
-        <Testimonial image={testimonyjpg} name="Emy" rating="9" age="28" />
-        <Testimonial image={testimonyjpg} name="Lily" rating="10" age="24" />
+        <Testimonial image={Johntest} name="John" rating="Rating: 8" age="35 Yrs" />
+        <Testimonial image={emytest} name="Emy" rating="Rating: 9" age="21 Yrs" />
+        <Testimonial image={Mattest} name="Mathew" rating="Rating: 7" age="27 Yrs" />
+        <Testimonial image={lilytest} name="Lily" rating="Rating: 10" age="24 Yrs" />
         </div>
         </div>
 

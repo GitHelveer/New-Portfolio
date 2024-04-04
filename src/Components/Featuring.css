@@ -14,6 +14,22 @@
     align-items: center;
   }
 
+  .hmenubut .menubut {
+    background-color: #f4ce14;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px 11px;
+    border: #f4ce14;
+  }
+  
+  .hmenubut .menubut a {
+    text-decoration: none;
+  }
+  
+  .hmenubut .menubut a:hover {
+    text-decoration: none;
+  }
+
   
   .featcontainer1 {
     padding: 3rem;
