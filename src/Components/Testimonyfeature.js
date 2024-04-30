@@ -1,5 +1,4 @@
 import Testimonial from "./Testimonial"
-import testimonyjpg from "./Testimonial1.jpg"
 import Johntest from "./Johntestimonial.jpg"
 import Mattest from "./Matthew Testimony.jpg"
 import emytest from "./Emytestimony.jpg"

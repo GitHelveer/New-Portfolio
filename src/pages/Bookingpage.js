@@ -5,7 +5,7 @@ import '../Components/Bookingpage.css';
 import { fetchAPI, submitAPI } from '../api';
 import { useNavigate } from 'react-router-dom';
 
-function updateTimes(state, date) {
+function updateTimes(date) {
   // Logic to update availableTimes based on the selected date
   // For now, returning the same available times regardless of the date
   return [
@@ -33,7 +33,7 @@ function initializeTimes() {
 function availableTimesReducer(state, action) {
   switch (action.type) {
     case 'UPDATE_TIMES':
-      return updateTimes(state, action.date);
+      return updateTimes(action.date);
     default:
       return state;
   }
@@ -68,7 +68,7 @@ function BookingPage() {
     // Fetch available times when the date changes
     const fetchAvailableTimes = async () => {
       try {
-        const times = await fetchAPI(date);
+        await fetchAPI(date);
         dispatch({ type: 'UPDATE_TIMES', date });
       } catch (error) {
         console.error(error);
