@@ -1,11 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Ignore the README file in the root folder
-README.md
-
-# Track the index.html file inside the public folder
-
-
 # dependencies
 /node_modules
 /.pnp
